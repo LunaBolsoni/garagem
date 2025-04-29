@@ -12,10 +12,10 @@ from core.views import UserViewSet, acessorioViewSet, CorViewSet, ModeloViewSet,
 router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
-router.register(r"acessorio", acessorioViewSet)
-router.register(r"cor", CorViewSet)
-router.register(r"modelo", ModeloViewSet)
-router.register(r"modelo", veiculoViewSet)
+router.register(r"acessorios", acessorioViewSet)
+router.register(r"cores", CorViewSet)
+router.register(r"modelos", ModeloViewSet)
+router.register(r"veiculos", veiculoViewSet)
 
 
 urlpatterns = [
