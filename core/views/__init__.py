@@ -1,8 +1,5 @@
 from .user import UserViewSet
-
-from .acessorio import acessorioViewSet
-
+from .acessorio import AcessorioViewSet
 from .cor import CorViewSet
-
-from .Modelo import ModeloViewSet
-from .veiculo import veiculoViewSet
+from .modelo import ModeloViewSet
+from .veiculo import VeiculoViewSet
